@@ -1,0 +1,14 @@
+[
+    {
+        "teamMemberinitials": ["CM", "RD" ],
+        "charges": "$15,2000"
+    },
+    {
+        "teamMemberinitials": ["CM", "RD", "NRD", "AZ" ],
+        "charges": "$10,2000"
+    },
+    {
+        "teamMemberinitials": ["CM", "RD", "NC" ],
+        "charges": "$20,2000"
+    }
+]

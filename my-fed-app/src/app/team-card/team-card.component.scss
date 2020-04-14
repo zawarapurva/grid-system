@@ -1,0 +1,41 @@
+.teamMembers {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+@mixin mem($color, $zindex){
+    z-index: $zindex;
+    height: 70px;
+    width: 70px;
+    background-color: $color;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: -25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.mem1{
+    $zindex: 10;
+    $color:rgb(22, 240, 40);
+    @include mem($color, $zindex)
+}
+
+.mem2{
+    $zindex: 20;
+    $color:rgb(240, 225, 22);
+    @include mem($color, $zindex)
+}
+
+.mem3{
+    $zindex: 30;
+    $color: rgb(22, 196, 240);
+    @include mem($color, $zindex)
+}
+
+.mem4{
+    $zindex: 40;
+    $color: rgb(177, 82, 153);
+    @include mem($color, $zindex)
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "progressHeading":"Total Profit",
+        "progressSubHeading":"Profit",
+        "progressNum":"$18M",
+        "progressChange":"78",
+        "color": "blue"
+    },
+    {
+        "progressHeading":"Feedbacks",
+        "progressSubHeading":"Customer review",
+        "progressNum":"134",
+        "progressChange":"89",
+        "color": "green"
+    },
+    {
+        "progressHeading":"New Orders",
+        "progressSubHeading":"Order progress",
+        "progressNum":"160",
+        "progressChange":"10",
+        "color": "red"
+    },
+    {
+        "progressHeading":"New Users",
+        "progressSubHeading":"Joined Users",
+        "progressNum":"382",
+        "progressChange":"77",
+        "color": "yellow"
+    }
+]

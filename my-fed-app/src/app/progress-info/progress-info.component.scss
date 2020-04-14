@@ -1,0 +1,18 @@
+
+@mixin progress($color){
+        background-color: $color
+}
+@mixin textcolor($color){
+    color: $color
+}
+.textcolor{
+    $color : green;
+    @include textcolor($color)
+}
+.progress-bar{
+    $color: green;
+    @include progress($color)
+}
+// .progresscards {
+
+// }

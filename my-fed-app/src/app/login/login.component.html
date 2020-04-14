@@ -16,14 +16,14 @@
             </div>
             <div class="form-group">
                 <label for="username">Username</label>
-                <input type="text" formControlName="username" placeholder="Username or Email" [ngClass]="{ 'is-invalid': submitted && f.username.errors }" />
+                <input type="text" style=" width: 100%;" formControlName="username" placeholder="Username or Email" [ngClass]="{ 'is-invalid': submitted && f.username.errors }" />
                 <div *ngIf="submitted && f.username.errors" class="invalid-feedback">
                     <div *ngIf="f.username.errors.required">Username is required</div>
                 </div>
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" formControlName="password" placeholder="Password" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+                <input type="password" style=" width: 100%;" formControlName="password" placeholder="Password" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
                 <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
                     <div *ngIf="f.password.errors.required">Password is required</div>
                     <div *ngIf="f.password.errors.minlength">Password must be at least 6 characters</div>

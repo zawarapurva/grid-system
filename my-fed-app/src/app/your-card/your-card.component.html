@@ -1,0 +1,30 @@
+<div class="yourCard bg-light gridRow p-2">
+    <h6 class="font-weight-bold">Your cards ({{yourCardDetails.length}})</h6>
+    <div class="card bg-white gridRow m-3 col-m-1 col-s-1 col-l-2" style="height: 300px; width: 300px;" *ngFor="let yourCardDetail of yourCardDetails">
+        <span class="badge badge-primary float-right p-2 col-l-2">{{yourCardDetail.balance}}</span>
+        <!-- <mat-icon>bookmark_border</mat-icon> -->
+        <!-- <div *ngIf="${yourCardDetail.acive}, else hourglass">
+            <mat-icon>bookmark_border</mat-icon>
+        </div>
+        <ng-template #hourglass>
+            <mat-icon>hourglass_full</mat-icon>
+        </ng-template> -->
+        <div class="card-body text-center p-2">
+            <div class="icon">
+                <mat-icon>bookmark_border</mat-icon>
+            </div>
+            <div class="card-info">
+                <h5 class="card-title">{{yourCardDetail.name}}</h5>
+                <p class="card-text text-muted">{{yourCardDetail.cardno}}</p>
+                <p class="card-text text-muted mt-1">{{yourCardDetail.card}}</p>
+            </div>
+        </div>
+        <div class="card-footer text-center">
+            <!-- <p *ngIf="${'yourCardDetail.acive'}, else locked">Expires at {{yourCardDetails.expiryDate}}</p>
+            <ng-template #locked>
+                <p *ngIf="$('yourCardDetail.acive'), else locked">Locked Temporarily</p>
+            </ng-template> -->
+            <p>Expires at {{yourCardDetail.expiryDate}}</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+<div class="teamCard bg-light gridRow p-2">
+    <h6 class="font-weight-bold font-size-medium ">Your Teams ({{yourTeamDetails.length}})</h6>
+    <div class="card bg-white m-3 col-l-3 col-m-1 col-s-1" style="height: 300px; width: 300px;"
+        *ngFor="let yourTeamDetail of yourTeamDetails,  let i = index">
+        <span class="p-2">Team {{i+1}}</span>
+        <div class="card-body p-2">
+            <div class="teamMembers" *ngFor="let member of yourTeamDetail.teamMemberinitials,  let j = index">
+                <span *ngIf="yourTeamDetails[i].teamMemberinitials[j] && j === 0"
+                    class="mem1">{{yourTeamDetail.teamMemberinitials[j]}}</span>
+                <span *ngIf="yourTeamDetails[i].teamMemberinitials[j+1] && j === 0"
+                    class="mem2">{{yourTeamDetail.teamMemberinitials[j+1]}}</span>
+                <span *ngIf="yourTeamDetails[i].teamMemberinitials[j+2] && j === 0"
+                    class="mem3">{{yourTeamDetail.teamMemberinitials[j+2]}}</span>
+                <span *ngIf="yourTeamDetails[i].teamMemberinitials[j+3] && j === 0"
+                    class="mem4">{{yourTeamDetail.teamMemberinitials[j+3]}}</span>
+            </div>
+        </div>
+        <div class="card-footer text-center">
+            <h6 class="text-muted">Current month charged</h6>
+            <p>{{yourTeamDetail.charges}}</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+<div class="bg-white p-2">
+    <h6 class="font-weight-bold">Recent Referrals</h6>
+    <p>Block with important recently referrals information</p>
+    <div class="table-responsive-sm table-responsive-md">
+        <table class="table">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Position</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Office</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Salary</th>
+                </tr>
+            </thead>
+            <tbody *ngFor="let recentRef of recentReftab">
+                <tr>
+                    <td>{{recentRef.name}}</td>
+                    <td>{{recentRef.position}}</td>
+                    <td>{{recentRef.age}}</td>
+                    <td>{{recentRef.office}}</td>
+                    <td>{{recentRef.date}}</td>
+                    <td>{{recentRef.salary}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

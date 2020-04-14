@@ -1,0 +1,30 @@
+<div class="progresscards bg-light">
+    <h6 class="font-weight-bold">Progress Information</h6>
+    <div>
+        <div class="gridRow" *ngFor="let progressInfo of progressInfoCard, let i=index">
+            <div class="card bg-white mb-3 col-l-4 col-s-1 m-2">
+                <div class="card-body" style="width: 100%;">
+                    <div>
+                        <span class="card-title font-weight-bold">{{progressInfo.progressHeading}}</span>
+                        <span class="textcolor font-weight-bold " [style.color]="progressInfoCard[i].color" 
+                            style="float:right;">{{progressInfo.progressNum}}</span>
+                        <p>{{progressInfo.progressSubHeading}}</p>
+                    </div>
+                    <div>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuemin="0"
+                                aria-valuemax="100"[style.width.%]="progressInfoCard[i].progressChange" 
+                                [style.background-color]="progressInfoCard[i].color" 
+                                [attr.aria-valuenow]="progressInfoCard[i].progressChange">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-1">
+                        <span>Change</span>
+                        <span style="float:right;">{{progressInfo.progressChange}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
