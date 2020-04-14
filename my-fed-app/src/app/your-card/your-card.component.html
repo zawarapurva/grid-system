@@ -1,17 +1,16 @@
 <div class="yourCard bg-light gridRow p-2">
     <h6 class="font-weight-bold">Your cards ({{yourCardDetails.length}})</h6>
-    <div class="card bg-white gridRow m-3 col-m-1 col-s-1 col-l-2" style="height: 300px; width: 300px;" *ngFor="let yourCardDetail of yourCardDetails">
+    <div class="card bg-white gridRow m-3 col-m-1 col-s-1 col-l-2" style="height: 300px; width: 300px;"
+        *ngFor="let yourCardDetail of yourCardDetails">
         <span class="badge badge-primary float-right p-2 col-l-2">{{yourCardDetail.balance}}</span>
-        <!-- <mat-icon>bookmark_border</mat-icon> -->
-        <!-- <div *ngIf="${yourCardDetail.acive}, else hourglass">
-            <mat-icon>bookmark_border</mat-icon>
-        </div>
-        <ng-template #hourglass>
-            <mat-icon>hourglass_full</mat-icon>
-        </ng-template> -->
         <div class="card-body text-center p-2">
             <div class="icon">
-                <mat-icon>bookmark_border</mat-icon>
+                <ng-container *ngIf="yourCardDetail.active===true, else hourglass">
+                    <mat-icon>bookmark_border</mat-icon>
+                </ng-container>
+                <ng-template #hourglass>
+                    <mat-icon>hourglass_empty</mat-icon>
+                </ng-template>
             </div>
             <div class="card-info">
                 <h5 class="card-title">{{yourCardDetail.name}}</h5>
@@ -20,11 +19,10 @@
             </div>
         </div>
         <div class="card-footer text-center">
-            <!-- <p *ngIf="${'yourCardDetail.acive'}, else locked">Expires at {{yourCardDetails.expiryDate}}</p>
+            <p *ngIf="yourCardDetail.active===true, else locked">Expires at {{yourCardDetail.expiryDate}}</p>
             <ng-template #locked>
-                <p *ngIf="$('yourCardDetail.acive'), else locked">Locked Temporarily</p>
-            </ng-template> -->
-            <p>Expires at {{yourCardDetail.expiryDate}}</p>
+                <p>Locked Temporarily</p>
+            </ng-template>
         </div>
     </div>
 </div>

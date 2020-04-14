@@ -3,7 +3,7 @@
         "name":"David Beckman",
         "cardno":"8748-XXXX-7673-9288",
         "card":"Mastercard",
-        "active":"true",
+        "active":true,
         "balance":"$653.898",
         "expiryDate":"07/20"
     },
@@ -11,7 +11,7 @@
         "name":"Matt Daemon",
         "cardno":"8748-XXXX-7673-9288",
         "card":"Mastercard",
-        "active":"true",
+        "active":true,
         "balance":"$653.898",
         "expiryDate":"03/24"
     },
@@ -19,7 +19,7 @@
         "name":"Angelina Jolie",
         "cardno":"8748-XXXX-7673-2536",
         "card":"Visa",
-        "active":"false",
+        "active":false,
         "balance":"$653.898"
     }
 ]
