@@ -30,10 +30,10 @@
     .col-l-9  {
         width: 100%
     }
-    .d-none{
+    .display-none{
         display: none
     }
-    .d-block{
+    .display-block{
         display: block;
     }
 }
@@ -46,10 +46,10 @@
             float: left;
             width: 100%
         }
-        .d-s-none{
+        .display-s-none{
             display: none !important
         }
-        .d-s-block{
+        .display-s-block{
             display: block !important
         }
     }
@@ -72,10 +72,10 @@
         .col-m-3, .col-m-6, .col-m-9 {
             width: 100%
         }
-        .d-m-none{
+        .display-m-none{
             display: none !important
         }
-        .d-m-block {
+        .display-m-block {
             display: block !important
         }
     }

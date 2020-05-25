@@ -1,10 +1,12 @@
-// .sidebar {
-    // position: fixed
-// }
+.navbar{
+    position: fixed;
+}
+.sidebar {
+    position: fixed
+}
 .dashboard {
     margin-top: 70px
 }
-// .dashboardContents {
-//     position: absolute;
-//     margin-left: 320px
-// }
+.dashboardContents {
+    overflow: scroll;
+}

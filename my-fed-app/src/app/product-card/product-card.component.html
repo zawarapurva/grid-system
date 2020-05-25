@@ -1,0 +1,29 @@
+<div class="product bg-light gridRow p-2">
+    <div class="card bg-white m-3 col-l-3 col-m-1 col-s-1" style="height: 300px; width: 300px;"
+        *ngFor="let productCard of productCards">
+        <div class="card-body p-1 display-flex">
+            <span class="labelnew"></span>
+            <span class="labelText">New</span>
+            <div class="justify-content-center">
+                <img [src]="productCard.imgsrc" style="width: 150px;">
+            </div>
+        </div>
+        <div class="card-footer gridRow">
+            <div class="col-l-7">
+                <h5>{{productCard.name}}</h5>
+                <ng-container style="float: left;" *ngFor="let size of productCard.sizes">
+                    <span class="badge badge-secondary mr-2">{{size}}</span>
+                </ng-container>
+            </div>
+            <div class="col-l-2">
+                <div *ngIf="productCard.discountedPrice===null, else discount">
+                    <h5 style="float: right; font-weight: bold; font-size:x-large;">{{productCard.price}}</h5>
+                </div>
+                <ng-template #discount>
+                    <h5 style="float: right; font-weight: bold; font-size:x-large;">{{productCard.discountedPrice}}</h5>
+                    <p style="float: right; margin-left: 70px; margin-bottom: 0; text-decoration: line-through" class="text-muted">{{productCard.price}}</p>
+                </ng-template>
+            </div>
+        </div>
+    </div>
+</div>

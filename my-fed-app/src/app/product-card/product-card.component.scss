@@ -1,0 +1,13 @@
+.labelnew {
+    z-index: 10;
+    width: 0;
+    height: 0;
+    border-top: 70px solid red;
+    border-right: 70px solid transparent;
+}
+
+.labelText {
+    z-index: 15;
+    color: white;
+    transform: rotate(-45deg);
+}

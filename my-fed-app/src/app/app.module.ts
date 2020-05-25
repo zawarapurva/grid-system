@@ -17,6 +17,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MatIconModule } from '@angular/material/icon';
 import { TeamCardComponent } from './team-card/team-card.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { CatalogueComponent } from './catalogue/catalogue.component';
+import { ProductCardComponent } from './product-card/product-card.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     RecentRefComponent,
     YourCardComponent,
     TeamCardComponent,
-    SidebarComponent
+    SidebarComponent,
+    CatalogueComponent,
+    ProductCardComponent
   ],
   imports: [
     BrowserModule,

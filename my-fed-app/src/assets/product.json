@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Miller Furniture",
+        "imgsrc":"https://i.ibb.co/y0Xt4t5/001.jpg",
+        "price":"$16",
+        "sizes": ["S","L"] ,
+        "discountedPrice": "$10",
+        "new":false,
+        "about":"Judith Miller's expert knowledge and advice is regularly featured in newspapers and magazines, including the London Evening Standard and BBC Homes & Antiques. Her television work includes The House Detectives, The Antiques Trail, It's Your Bid and is a regular expert on BBC's The Antiques Roadshow. Judith Miller lives in North London.",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+        "information":{
+            "Reading level": "1 - 9 years",
+            "Hardcover": "64 pages",
+            "Publisher":" DK (1 September 2018)"
+        },
+        "aboutSeller":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+        "labels":["Catalogue", "Chairs"]
+    },
+    {
+        "id": 2,
+        "name": "Fendi Casa",
+        "imgsrc":"https://i.ibb.co/hV5ytKN/003.jpg",
+        "price":"$16",
+        "sizes": ["S","L","XL"],
+        "discountedPrice":null,
+        "new":false,
+        "about":"Judith Miller's expert knowledge and advice is regularly featured in newspapers and magazines, including the London Evening Standard and BBC Homes & Antiques. Her television work includes The House Detectives, The Antiques Trail, It's Your Bid and is a regular expert on BBC's The Antiques Roadshow. Judith Miller lives in North London.",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+        "information":{
+            "Reading level": "1 - 9 years",
+            "Hardcover": "64 pages",
+            "Publisher":" DK (1 September 2018)"
+        },
+        "aboutSeller":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+        "labels":["Catalogue", "Chairs"]
+    },
+    {
+        "id": 3,
+        "name": "MIJHA Tub Chair ",
+        "imgsrc":"https://i.ibb.co/7zs9kws/002.jpg",
+        "price":"$16",
+        "sizes": ["S","L"] ,
+        "discountedPrice": "$10",
+        "new":true,
+        "about":"Judith Miller's expert knowledge and advice is regularly featured in newspapers and magazines, including the London Evening Standard and BBC Homes & Antiques. Her television work includes The House Detectives, The Antiques Trail, It's Your Bid and is a regular expert on BBC's The Antiques Roadshow. Judith Miller lives in North London.",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+        "information":{
+            "Reading level": "1 - 9 years",
+            "Hardcover": "64 pages",
+            "Publisher":" DK (1 September 2018)"
+        },
+        "aboutSeller":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+        "labels":["Catalogue", "Chairs"]
+    },
+    {
+        "id": 4,
+        "name": "Versace",
+        "imgsrc":"https://i.ibb.co/wNbpfNf/004.jpg",
+        "price":"$16",
+        "sizes": ["S","M","L"] ,
+        "discountedPrice":null,
+        "new":true,
+        "about":"Judith Miller's expert knowledge and advice is regularly featured in newspapers and magazines, including the London Evening Standard and BBC Homes & Antiques. Her television work includes The House Detectives, The Antiques Trail, It's Your Bid and is a regular expert on BBC's The Antiques Roadshow. Judith Miller lives in North London.",
+        "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+        "information":{
+            "Reading level": "1 - 9 years",
+            "Hardcover": "64 pages",
+            "Publisher":" DK (1 September 2018)"
+        },
+        "aboutSeller":"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.",
+        "labels":["Catalogue", "Chairs"]
+    }
+]
